@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+   
+   header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F6AFCD;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 150px;
+   }
+   
+   nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Concert One";
+    text-transform: uppercase;
+   }
+   
+   nav li {
+    margin: 0 10px;
+    
+   }
+   
+   nav li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+   }
+   
+   nav li a:hover{
+    color: #EF353F;
+    text-decoration: none;
+   }
+   
+   
+   .logo{
+    padding: 0 15px;
+   }
+   .logo img{
+    width: 95px;
+    height: auto;
+   }
+   
+   .iconos {
+    display: flex;
+    
+   }
+   
+   .iconos a {
+    margin: 0 10px;
+    color: #000000;
+    font-size: 18px;
+   }
+   .iconos a:hover {
+   
+    color: #EF353F;
+   }
+
+/*seccio1*/
+.principal {
+    background-image: url('../imagen/header3.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+   }
+   
+   .contenidouno {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+   }
+
+   .contenidouno h1{
+    margin-top: 15%;
+    font-family: "Concert One";
+    font-size: 60px;
+    color: #F2B8CE;
+   }
+
+   /*carta*/
+
+   .menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: 50px;
+    padding: 30px 90px 5px 90px;
+    align-items:center ;
+}
+
+.card {
+    background-color: #F2B8CE;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    width: 70%;
+    padding: 20px 10px 30px 0px;
+    margin: 0 60px 30px 60px;
+}
+
+.card img {
+    width: 70%;
+    height: auto;
+    border-radius: 8px;
+    align-items: center;
+    padding-left: 50px;
+    padding-bottom: 5px;
+}
+
+.card h4 {
+    margin: 10px 0 5px;
+    font-family: "Noto Sans KR";
+    color: #89030C;
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card p {
+    color: #000000;
+    font-family: "Balsamiq Sans";
+    font-size: 15px;
+    line-height: 1.6;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.card:hover {
+    background-color: #ef848b;
+}
+
+/*footer*/
+
+footer {
+    background-color: #89030C;
+    color: #fff;
+    padding: 30px;
+   }
+   
+   .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 1px solid #ffffff;
+   }
+   
+   .footer-logo {
+    flex: 1;
+    margin-left: 20px;
+   }
+   
+   .footer-logo .logo {
+    max-width: 150px;
+   }
+   
+   .contacto {
+    align-items: center;
+    text-align: left;
+    width: 30%;
+    margin-left: 40px;
+   }
+   
+   .contacto p {
+    margin: 5px 0;
+    font-family: "Balsamiq Sans";
+    font-size: 18px;
+    line-height: 1.6;
+   }
+   
+   .social {
+    flex: 1;
+    text-align: right;
+    padding-right: 60px;
+   }
+   
+   .social h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Balsamiq Sans";
+   align-items: center;
+   padding-right: 20px;
+   padding-bottom: 10px;
+   }
+   
+   .social-icon {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+   }
+   
+   .social-icon:hover {
+    color: #ff5252;
+   }
+   
+   .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+   }
+   
+   .footer-bottom p {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Balsamiq Sans";
+    line-height: 1.6;
+   }
